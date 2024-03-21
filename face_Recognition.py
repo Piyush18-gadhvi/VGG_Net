@@ -1,9 +1,3 @@
-
-# -*- coding: utf-8 -*-
-"""
-@author: Krish.Naik
-"""
-
 from keras.layers import Input, Lambda, Dense, Flatten
 from keras.models import Model
 from keras.applications.vgg16 import VGG16
@@ -105,4 +99,3 @@ import tensorflow as tf
 from keras.models import load_model
 
 model.save('facefeatures_new_model.h5')
-
